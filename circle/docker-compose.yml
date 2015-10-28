@@ -1,0 +1,10 @@
+cas:
+  build: ../auth/cas41
+  volumes:
+    - ./authentication.txt:/etc/cas/authentication.txt
+    - ./cas.properties:/etc/cas/cas.properties
+  ports:
+    - 9000:8080
+
+# /etc/hosts
+# `docker-machine ip default` login.circle.edu

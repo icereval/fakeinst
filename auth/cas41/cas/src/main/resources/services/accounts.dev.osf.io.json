@@ -1,0 +1,12 @@
+{
+  "@class" : "org.jasig.cas.services.RegexRegisteredService",
+  "id" : 203948234207230,
+  "name" : "",
+  "description" : "",
+  "serviceId" : "^http://accounts.dev.osf.io:8080/.*",
+  "logo": "",
+  "attributeReleasePolicy" : {
+    "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
+    "allowedAttributes" : [ "java.util.ArrayList", [ ] ]
+  }
+}
